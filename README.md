@@ -1,13 +1,42 @@
-# Quiz Application
+## Testing the project locally
 
-This is a quiz application focused on DevOps and AWS services. Users can select a topic, take a quiz, and get their score.
+```
+Clone this project
+git clone https://github.com/HEMALATHA-V-DEV/Node-js-Applciation.git
+```
 
-## Setup
+## Initialise and start the project
 
-1. Install dependencies:
+1. Install Dependencies
+
+Install the required Node.js packages (dependencies) using npm install:
+
+```
+npm install
+This command reads the package.json file and installs all the necessary dependencies listed there into the node_modules folder.
+```
+
+2. Start the Application
+Once the dependencies are installed, you can start the application using the npm start command:
+
+```
+npm start
+This will run the script defined in the "start" field of the package.json file. Typically, it launches your Node.js application.
+```
+
+3. Access the Application
+After running npm start, your application should be up and running.
+
+```
+http://localhost:3000. 
+```
+
+
 
 
 ## File Descriptions:
+
+```
 
 .gitignore: Lists files/folders that Git should ignore (e.g., node_modules, .env, *.log, etc.).
 
@@ -28,3 +57,5 @@ public/js/script.js: Handles the quiz logic (e.g., option selection, score calcu
 public/index.html: The homepage where users can select between the DevOps and AWS quiz topics.
 
 routes/quizRoutes.js: Contains the logic to serve the quiz questions and handle form submissions.
+
+```
